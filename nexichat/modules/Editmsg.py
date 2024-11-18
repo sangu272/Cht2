@@ -1,5 +1,5 @@
-from shizuchat import nexiuchat
-from shizuchat import nexichat, mongo, LOGGER, db
+from nexichat import nexichat
+from nexichat import nexichat, mongo, LOGGER, db
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import asyncio
