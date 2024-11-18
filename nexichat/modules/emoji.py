@@ -124,7 +124,7 @@ rtemoji = [
 ]
 
 
-@shizuchat.on_cmd(["emoji"])
+@nexichat.on_cmd(["emoji"])
 async def emoji(client: Client, message: Message):
     op = await edit_or_reply(message, "`Emojifying the text..`")
     args = get_text(message)
@@ -146,7 +146,7 @@ async def emoji(client: Client, message: Message):
     await op.edit(result)
     
 
-@shizuchat.on_cmd(["love"])
+@nexichat.on_cmd(["love"])
 async def cmoji(client: Client, message: Message):
     op = await edit_or_reply(message, "`Emojifying the text..`")
     args = get_text(message)
