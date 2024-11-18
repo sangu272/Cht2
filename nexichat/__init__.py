@@ -117,5 +117,4 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 nexichat = nexichat()
-userbot = Userbot()
         
