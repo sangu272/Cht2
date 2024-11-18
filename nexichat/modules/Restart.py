@@ -8,7 +8,7 @@ from pyrogram import filters, Client
 from nexichat import nexichat
 from config import OWNER_ID
 
-@shizuchat.on_message(
+@nexichat.on_message(
     filters.command(["restart"]) & filters.user(int(OWNER_ID))
 )
 async def restart(client: Client, message: Message):
