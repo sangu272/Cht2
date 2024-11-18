@@ -10,7 +10,6 @@ API_HASH = "4e984ea35f854762dcde906dce426c2d"
 # --------------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 MONGO_URL = getenv("MONGO_URL", None)
-STRING1 = getenv("STRING_SESSION", None
 OWNER_ID = int(getenv("OWNER_ID", "7129262488"))
 SUPPORT_GRP = "TG_BIO_STYLE"
 UPDATE_CHNL = "TG_BIO_STYLE"
