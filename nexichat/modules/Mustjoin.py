@@ -2,7 +2,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
-from shizuchat import nexichat as app
+from nexichat import nexichat as app
 from config import UPDATE_CHNL as MUST_JOIN
 
 @app.on_message(filters.incoming & filters.private, group=-1)
