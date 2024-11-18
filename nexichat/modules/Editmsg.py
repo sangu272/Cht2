@@ -5,7 +5,7 @@ from pyrogram.types import Message
 import asyncio
 from pyrogram import *
 
-@shizuchat.on_edited_message(filters.group & ~filters.me)
+@nexichat.on_edited_message(filters.group & ~filters.me)
 async def delete_edited_message(client, message):
     # Wait for a specified time (e.g., 2 seconds)
     await asyncio.sleep(2)
